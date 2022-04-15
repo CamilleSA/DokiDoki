@@ -2,26 +2,45 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-
+[HelpURL("https://www.youtube.com/watch?v=ZVh4nH8Mayg")]
 public class WriteScript : MonoBehaviour 
 {
+    [Header("Write Speed")]
+    [Tooltip("Write speed")]
+    [Range(0, 2)]
+    public float speedText = 0.05f;
 
-	public Text txt;
-    public Text txt2;
-    public Text txt3;
-    public GameObject agree;
+    [Header("Text Settings")]
+    [Tooltip("Warning Text 1")]
+	public Text text1;
+    
+    [Tooltip("Warning Text 2")]
+    public Text text2;
+
+    [Tooltip("Warning Text 3")]
+    public Text text3;
+
+    [Header("Active Button")]
+    [Tooltip("For Active the button agree when writting is stopped")]
+    public GameObject agreeButton;
+
+    [HideInInspector]
 	string story;
+
+    [HideInInspector]
     string story2;
+
+    [HideInInspector]
     string story3;
 
 	void Awake () 
 	{
-		story = txt.text;
-		txt.text = "";		
-        story2 = txt2.text;
-		txt2.text = "";
-        story3 = txt3.text;
-		txt3.text = "";
+		story = text1.text;
+		text1.text = "";		
+        story2 = text2.text;
+		text2.text = "";
+        story3 = text3.text;
+		text3.text = "";
 		StartCoroutine ("PlayText");
 	}
 
@@ -29,21 +48,21 @@ public class WriteScript : MonoBehaviour
 	{
 		foreach (char c in story) 
 		{
-			txt.text += c;
-			yield return new WaitForSeconds (0.05f);
+			text1.text += c;
+			yield return new WaitForSeconds (speedText);
 
 		}
-        txt.text = "";
+        text1.text = "";
         foreach (char c in story2) {
-            txt2.text += c;
-            yield return new WaitForSeconds(0.05f);
+            text2.text += c;
+            yield return new WaitForSeconds(speedText);
         }
-        txt2.text = "";
+        text2.text = "";
         foreach (char c in story3) {
-            txt3.text += c;
-            yield return new WaitForSeconds(0.05f);
+            text3.text += c;
+            yield return new WaitForSeconds(speedText);
         }
-        agree.SetActive(true);
+        agreeButton.SetActive(true);
 	}
 
 }

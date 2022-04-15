@@ -1,0 +1,1935 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 6
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: '"Everyone! The new member is here~!"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 15
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I told you, don''t call me a ''new member--"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 15
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Eh? I glance around the room.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Welcome to the Literature Club. It''s a pleasure meeting you."'
+    speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Sayori always says nice things about you."'
+    speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Seriously? You brought a boy?"'
+    speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Way to kill the atmosphere."'
+    speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah! What a nice surprise!"'
+    speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 500, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Welcome to the club!"'
+    speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 500, y: 20}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: All words escape me in this situation.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: This club...
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: ...is full of incredibly cute girls!!
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"What are you looking at?"'
+    speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"If you want to say something say it."'
+    speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"S-Sorry..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Natsuki..."'
+    speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 520, y: 20}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Hmph."'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The girl with the sour attitude, whose name is apparently Natsuki, is one
+      I don't recognize.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Her small figure makes me think she's probably a first-year
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She is also the one who made cupcakes, according to Sayori.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You can just ignore her when she gets moody~"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayori says that quietly into my ear, then turns back toward the other
+      girls.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Anyway! This is Natsuki, always full of energy."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 16
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"And this is Yuri, the smartest in the club!"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"D-Don''t say things like that..."'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri, who appears comparably more mature and timid, seems to have a hard
+      time keeping up the people like Sayori and Natsuki.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah... Well, it''s nice to meet both you."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"And it sounds like you already know Monika, is that right?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: d0f94d6b370cd9948be594ba550c6178, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: d1e35a18b7de92f4eb669132fda708a0, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s right."'
+    speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 60}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It''s great to see you again."'
+    speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika smiles sweetly.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We do know each other--well, we rarely talked, but we were in the same
+      class last year.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika was probably the most popular girl in class--smart, beautiful, athletic.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Basically, completely out of my league.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: So, having her smile at me so genuinely feels a little...
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Y-You too, Monika." '
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Come sit down, MC! We made room for you at the table, so you can sit
+      next to me or Monika."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: ab71e526565c1ae469314122d4dbc648, type: 2}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 17
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''ll get the cupcakes~"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Hey! I made them, I''ll get them!"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Sorry, I got a little too excited~"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 18
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Then, how about I make some tea as well?"'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 580, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The girls have a few desks arranged to form a table.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 18
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: As Sayori mentioned, it's been widened so that there is one space next
+      to Monika and one space next to Sayori.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki and Yuri walk over to the corner of the room, where natsuki grabs
+      a wrapped tray and Yuri opens the closet.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Still feeling awkward, I take a seat next to Sayori.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki proudly marches back to the table, tray in hand.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Okaaay, are you ready?"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...Ta-daa!"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Uwooooah!"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -500, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 580, y: 70}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki lifts the foil off the tray to reveal a dozen white, fluffy cupcakes
+      decorated to look like little cats.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The whiskers drawn with icing, and little pieces of chocolate were used
+      to make ears.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: 'Sayori: "So cuuuute~!"'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I had no idea you were so good at baking, Natsuki."'
+    speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ehehe. Well, you know."'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Just hurry and take one!"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayori grabs one first, then Monika. I follow.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It''s delicious!"'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayori talks with her mouth full and has already managed to get icing on
+      her face.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I turn the cupcake around in my fingers, looking for the best angle to
+      take a bite.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki is quiet.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: e987cb34565beec4fa79f06e8e532d03, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I can't help but notice her sneaking glances in my direction.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Is she waiting for me to take a bite?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I finally bite down.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: The icing is sweet and full of flavor--I wonder if she made it herself.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"This is really good."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Thank you, Natsuki."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"W-Why are you thanking me? It''s not like I...!"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: (Haven't I heard this somewhere before...?)
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...Made them for you or anything."'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Eh? I thought you technically did, sayori said--"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well, maybe!"'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 7
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"But not for, y-you know, you! Dummy..."'
+    speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Alright, alright..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I give up on Natsuki's weird logic and dismiss the conversation.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: f69e38288586171478bef6ec1129aa9e, type: 2}
+      spriteIndex: 7
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri returns to the table, carrying a tea set.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She carefully places a teacup in front of each of us before setting down
+      the teapot next to the cupcake tray.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You keep a whole tea set in this classroom?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Don''t worry, the teachers gave us permission."'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"After all, doesn''t a hot cup of tea help you enjoy a good book?"'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah...I-I guess..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ehehe, don''t let yourself get intimidated, Yuri''s just trying to impress
+      you."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: 600, y: 50}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Eh? T-That''s not..."'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Insulted, Yuri looks away.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I meant that, you know..."'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I believe you."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well, tea and reading might not be a pastime for me, but I least enjoy
+      tea."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''m glad..."'
+    speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri faintly smiles to herself in relief.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika raises an eyebrow, then smiles at me.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"So, what made you consider the Literature club?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 44ae4a7d9606bef4a8f5527b9d2d0ceb, type: 2}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: -400, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Um..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I was afraid of this question.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Something tells me I shouldn't tell Monika that I was practically dragged
+      here by Sayori.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well, I haven''t joined any clubs yet, and Sayori seemed really happy
+      here, so..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s okay! Don''t be embarrassed!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"We''ll make sure you feel right at home, okay?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"As president of the Literature Club, It''s my duty to make the club fun
+      and exciting for everyone!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Monika, I''m surprised."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"How come you decided to start your own club?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You could probably be a board member for any of the major clubs."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Weren''t you a leader of the debate club last year?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ahaha, well, you know..."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"To be honest, I can''t stand all of the politics around the major clubs."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It feels like nothing but arguing about the budget and publicity and
+      how to prepare for events..."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''d much rather take something I personally enjoy and make something
+      special out of it."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"And if it encourages other to get into literature, then I''m fulfilling
+      that dream!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Monika really is a great leader!"'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 2
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri also nods in agreement.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Then I''m surprised there aren''t more people in the club yet."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It must be hard to start a new club."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You could put it that way."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Not many people are very interested in putting out all the effort to
+      start something brand new..."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Especially when it''s something that doesn''t grab your attention, like
+      literature."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You have to work hard to convince people that you''re both fun and worthwhile."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"But it makes school events, like the festival, that much more important."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''m confident that we can all really grow this club before we graduate."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Right, everyone?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yeah!"'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 200, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"We''ll do our best!"'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -100, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You know it!"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 4
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Everyone enthusiastically agrees.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Such different girls, all interested in the same goal...
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika must have worked really hard just to find these three.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Maybe that's why they were all so delighted by the idea of a new member
+      joining.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Though I still don't really know if I can keep up with their level of enthusiasm
+      about literature.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"So, what kinds of things do you like to read?"'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 4
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well...Ah..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Considering how little I've read these past few years, I don't really have
+      a good way of answering that.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...Manga..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I mutter quietly to myself, half-joking.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki's head suddenly perks up.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 5
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: It looks like she wants to say something but she keeps quiet.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"N-Not much of a reader, I guess."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 5
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...Well, that can change..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: What am I saying?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I spoke without thinking after seeing Yuri's sad smile.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Anyway, what about you, Yuri?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well, let''s see.."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri traces the rim of her teacup with her finger.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"My favorites are usually novels that build deep and complex fantasy worlds."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"The level of creativity and craftsmanship behind them is amazing to me."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"And telling a good story in such a foreign world is equally impressive."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Yuri goes on, clearly passionate about her reading.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: She seemed so reserved and timid since the movement I walked in, but it's
+      obvious by the way her eyes light up that she finds her comfort in the world
+      of books, not people.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"But you know, I like a lot of things."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Stories with deep psychological elements usually immerse me as well."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Isn''t it amazing how a writer can so deliberately take advantage of
+      your own lack of imagination to completely throw you for a loop?"'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Anyway, I''ve been reading a lot of horror lately..."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah, I read a horror book once..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I desperately grasp something I can relate to at the minimal level.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: At this rate, Yuri might as well be having a conversation with a rock.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Really? I wouldn''t have expected that, Yuri."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 500, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"For someone as gentle as you..."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I guess you could say that."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"But if a story makes me think, or takes me to another world, then I really
+      can''t put it down."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Surreal horror is often very successful at changing the way you look
+      at the world, if only for a brief moment."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ugh, I hate horror..." '
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Oh? Why''s that?"'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Well, I just..."'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki's eyes dart over to me for a split second.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Never mind."'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That''s right, you usually like to write about cute things, don''t you,
+      Natsuki?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"W-What?"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 8
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"What gives you that idea?"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You left a piece of scrap paper behind last club meeting."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"It looked like you were working on a poem called--"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Don''t say it out loud!"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 9
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"And give that back!"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Fine, fine~"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ehehe, your cupcakes, your poems..."'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 5
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 4
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 10
+      actionType: 1
+      coords: {x: -200, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Everything you do is just as cute as you are~"'
+    speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayori sidles up behind Natsuki and puts her hands on her shoulders.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''m not cute!!"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 11
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Natsuki, you write your own poems?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3c74866532a21844eb2a0253e8e840e6, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Eh? Well, I guess sometimes."'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Why do you care?"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Why don''t you share them sometime?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"N-No!"'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki averts her eyes.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You wouldn''t...like them..."'
+    speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah...not a very confident writer yet?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I understand how Natsuki feels..."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 5
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Sharing that level of writing takes more than just confidence."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"The truest form of writing is writing to oneself."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 8
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You must be willing to open up to your readers, exposing your vulnerabilities
+      and showing even the deepest reaches of your heart."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Do you have writing experience too, Yuri?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 54e4d11308145e34cb127e8930f2575c, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: 600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Maybe if you share some of your work, you can set an example and help
+      Natsuki feel comfortable enough to share hers."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"..."'
+    speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I guess it''s the same for Yuri..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Aww... I wanted to read everyone''s poems..."'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 3
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: We all sit in silence for a moment.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 3
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 1b41f1cd6fc46724cba302bf82fe9784, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Okay!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 5
+      actionType: 1
+      coords: {x: 250, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I have an idea, everyone~"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...?"'
+    speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 5
+      actionType: 1
+      coords: {x: -200, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 700, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Natsuki and Yuri look quizzically at Monika.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Let''s all go home and write a poem of our own!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Then, next time we meet, we''ll all share them with each other."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"That way, everyone is even!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"U-Um..."'
+    speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"..."'
+    speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 9
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yeaaah! Let''s do it!"'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 1
+      actionType: 1
+      coords: {x: -600, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Plus, now that we have a new member, I think it will help us all get
+      a little more comfortable with each other, and strengthen the bond of the club."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Isn''t that right?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika smiles warmly at me once again.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Hold on... there''s still one problem."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Eh? What''s that?"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Now that we're back to the original topic of me joining the club, I bluntly
+      come forth with what's been on my mind the entire time.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I never said I would join this club!"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Sayori may have convinced me to stop by, but I never made any decision."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I still have other clubs to look at, and...um..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I lose my trail of thought.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 4
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: All four girls stare back at me with dejected eyes.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"B-But..."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''m sorry, I thought..."'
+    speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 9
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Hmph."'
+    speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"..."'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Y-You all..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I'm defenseless against these girls.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: How am I supposed to make a clear-headed decision when it's like this?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That is, if writing poems is the price I need to pay in order to spend
+      every day with these beautiful girls...
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"...Right."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Okay, I''ve decided, then."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I''ll join the Literature Club."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: One by one, the girls' eyes light up.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yesss! I''m so happyyy~"'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Sayori wraps her arms around me, jumping up and down.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"H-Hey--"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You really did scare me for a moment..."'
+    speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"If you really just came for the cupcakes, I would be super pissed."'
+    speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Then that makes it official."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Welcome to the Literature Club!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ah...thanks, I guess."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Okay, everyone."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 2
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 011a72d2892d3eb46bf1bbe5066a110c, type: 2}
+      spriteIndex: 6
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: dec8bae5aa831b34baec840061835e79, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 1
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"I think with that, we can officially end today''s meeting on a good note."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Everyone remember tonight''s assignment."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Write a poem to bring to the next meeting, so we can all share!"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Monika looks over at me once more.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"You, I look forward to seeing how you express yourself."'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 3
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Ehehe~"'
+    speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Y-Yeah..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Can I really impress the class star Monika with my mediocre writing skills?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 3f07569616f8ce344a7e4b460b34c30d, type: 2}
+      spriteIndex: 5
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: I already feel the anxiety welling up inside me.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: Meanwhile, the girls continue to chit-chat as Yuri and Natsuki clean up
+      their food.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Hey, since we''re already here, do you want to walk home together?"'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 6
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: That's right--Sayori and I never walk home together anymore because she
+      always stayed after school for clubs.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Sure, might as well."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  - text: '"Yaay~"'
+    speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
+      spriteIndex: 1
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 0}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: b9f175a1ed3244042847aaa6f9db50f5, type: 3}
+  nextScene: {fileID: 11400000, guid: 71cbdf1c367a0df4d9cdce5741220579, type: 2}

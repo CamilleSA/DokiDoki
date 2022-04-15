@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Natsuki 3
+  m_EditorClassIdentifier: 
+  speakerName: Natsuki
+  textColor: {r: 0.6739578, g: 0, b: 1, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: 0b4b2f70a3e965d46ac856576790ec40, type: 3}
+  - {fileID: 21300000, guid: bc2a32644378242438a4dc9ca9bf5970, type: 3}
+  - {fileID: 21300000, guid: 2d2b564a476937849936410697b01cec, type: 3}
+  - {fileID: 21300000, guid: b52307d713b7405479c388f8ea0a5528, type: 3}
+  - {fileID: 21300000, guid: d997993bed0e3694b9ccba0a1631852f, type: 3}
+  - {fileID: 21300000, guid: df219ae13f392c348b1b2e0378008bee, type: 3}
+  - {fileID: 21300000, guid: 14591efaed1d95a4eaa9b04fc3b60e1e, type: 3}
+  - {fileID: 21300000, guid: 14781503cfc779a46bc489ecd7e4df07, type: 3}
+  - {fileID: 21300000, guid: da2958c98ef25ae4a8e9ba8f00322374, type: 3}
+  - {fileID: 21300000, guid: 7a1959d1dcdf0204d824e0183fadfdf0, type: 3}
+  - {fileID: 21300000, guid: af232563e5806e84b8855e7ee7dabaf9, type: 3}
+  - {fileID: 21300000, guid: 5c713f8d3b6b3134e82cea1fdce7e5bf, type: 3}
+  prefab: {fileID: -400084230080365608, guid: b63e65cd1c58ac24dbd937d543b10442, type: 3}
