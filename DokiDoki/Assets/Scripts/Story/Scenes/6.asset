@@ -21,7 +21,7 @@ MonoBehaviour:
       actionType: 1
       coords: {x: -600, y: 0}
       moveSpeed: 0
-    music: {fileID: 0}
+    music: {fileID: 8300000, guid: 2c0f030f5303cc04db9df5b23dbd7854, type: 3}
     sound: {fileID: 0}
   - text: '"I told you, don''t call me a ''new member--"'
     speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}

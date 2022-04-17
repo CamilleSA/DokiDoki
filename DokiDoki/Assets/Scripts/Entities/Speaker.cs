@@ -10,6 +10,7 @@ public class Speaker : ScriptableObject
     public string speakerName;
 
     [Tooltip("Color of the speaker name")]
+    [ColorUsage(true, true)]
     public Color textColor;
 
     [Tooltip("List of speaker sprites")]

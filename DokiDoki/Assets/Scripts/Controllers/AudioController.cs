@@ -8,6 +8,7 @@ public class AudioController : MonoBehaviour
     [Header("Audio Settings")]
     [Tooltip("Musics")]
     public AudioSource musicSource;
+    [Space]
     [Tooltip("Sounds")]
     public AudioSource soundSource;
 

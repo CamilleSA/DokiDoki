@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: 1
   m_EditorClassIdentifier: 
   labels:
-  - text: Choice 1
-    nextScene: {fileID: 11400000, guid: 8157eee26ed449e4180b2df48a5f5257, type: 2}
-  - text: Choice 2
-    nextScene: {fileID: 11400000, guid: 5a227718f9adde8459ae4099f6eafac6, type: 2}
-  - text: Choice 3
-    nextScene: {fileID: 11400000, guid: 322cc1a5845dec844a3dab162f68e0ff, type: 2}
+  - text: WAIT FOR SAYORI
+    nextScene: {fileID: 11400000, guid: c60a5a4d5bd8c7a4f87d46fd7ae6d06c, type: 2}
+  - text: "DON\u2019T WAIT FOR SAYORI "
+    nextScene: {fileID: 11400000, guid: c5d6e0da257cbb74b9a24dd0310e1d6f, type: 2}

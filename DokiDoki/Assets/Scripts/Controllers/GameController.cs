@@ -9,25 +9,35 @@ public class GameController : MonoBehaviour
     [Tooltip("Actual Scene, by default = 1")]
     public GameScene currentScene;
 
+    [Space]
     [Tooltip("Script BottomBarController attached at GameObject bottomBar")]
     public BottomBarController bottomBar;
 
+    [Space]
     [Tooltip("Script BottomBarController attached at GameObject Background")]
     public SpriteSwitcher backgroundController;
 
+    [Space]
     [Tooltip("Script BottomBarController attached at GameObject Choose")]
     public ChooseController chooseController;
 
+    [Space]
     [Tooltip("Script BottomBarController attached at GameObject Audio")]
     public AudioController audioController;
 
+    [Space]
     [SerializeField]
     [Tooltip("State of text")]
     private State state = State.IDLE;
 
+    [Space]
     [SerializeField]
     [Tooltip("Number of scene")]
     private List<StoryScene> history = new List<StoryScene>();
+
+    public GameObject ButtonNext;
+    public GameObject ButtonPrev;
+    public GameObject ButtonSettings;
 
     private enum State
     {
@@ -46,7 +56,52 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void Update()
+    public void NextSentenceButton() {
+        
+        if (state == State.IDLE) {
+                if (bottomBar.IsCompleted())
+                {
+                    bottomBar.StopTyping();
+                    if (bottomBar.IsLastSentence())
+                    {
+                        PlayScene((currentScene as StoryScene).nextScene);
+                    }
+                    else
+                    {
+                        bottomBar.PlayNextSentence();
+                        PlayAudio((currentScene as StoryScene)
+                            .sentences[bottomBar.GetSentenceIndex()]);
+                    }
+                }
+                else
+                {
+                    bottomBar.SpeedUp();
+                }
+        }
+    }
+
+    public void PreviousSentenceButton() {
+        if (state == State.IDLE) {
+                if (bottomBar.IsFirstSentence())
+                {
+                    if(history.Count > 1)
+                    {
+                        bottomBar.StopTyping();
+                        bottomBar.HideSprites();
+                        history.RemoveAt(history.Count - 1);
+                        StoryScene scene = history[history.Count - 1];
+                        history.RemoveAt(history.Count - 1);
+                        PlayScene(scene, scene.sentences.Count - 2, false);
+                    }
+                }
+                else
+                {
+                    bottomBar.GoBack();
+                }
+        }
+    }
+
+ /*   void Update()
     {
         if (state == State.IDLE) {
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
@@ -90,7 +145,7 @@ public class GameController : MonoBehaviour
                 }
             }
         }
-    }
+    }*/
 
     public void PlayScene(GameScene scene, int sentenceIndex = -1, bool isAnimated = true)
     {
@@ -104,6 +159,9 @@ public class GameController : MonoBehaviour
         if (isAnimated)
         {
             bottomBar.Hide();
+            ButtonNext.SetActive(false);
+            ButtonPrev.SetActive(false);
+            ButtonSettings.SetActive(false);
             yield return new WaitForSeconds(1f);
         }
         if (scene is StoryScene)
@@ -117,6 +175,9 @@ public class GameController : MonoBehaviour
                 yield return new WaitForSeconds(1f);
                 bottomBar.ClearText();
                 bottomBar.Show();
+                ButtonNext.SetActive(true);
+                ButtonPrev.SetActive(true);
+                ButtonSettings.SetActive(true);
                 yield return new WaitForSeconds(1f);
             }
             else

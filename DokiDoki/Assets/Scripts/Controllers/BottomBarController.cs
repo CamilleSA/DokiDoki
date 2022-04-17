@@ -3,45 +3,59 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 [HelpURL("https://www.youtube.com/watch?v=_nRzoTzeyxU")]
 public class BottomBarController : MonoBehaviour
 {
     [Header("Text Settings")]
+    [Space]
     [Tooltip("Dialog Text")]
     public TextMeshProUGUI barText;
 
+    [Space]
     [Tooltip("Pseudo Text")]
     public TextMeshProUGUI personNameText;
 
+    [Space]
     [Header("Text Engine")]
     [SerializeField]
     private int sentenceIndex = -1;
 
+    [Space]
     [Tooltip("Current Scene, by default = 1")]
     [SerializeField]
     private StoryScene currentScene;
 
+    [Space]
     [Tooltip("Status of dialog")]
     [SerializeField]
     private State state = State.COMPLETED;
 
+    [Space]
     [Header("Animation Show / Hide Dialog Box")]
     [Tooltip("Animation Show / Hide Dialog Box if scene is finish")]
     [SerializeField]
     private Animator animator;
 
+    [Space]
     [Tooltip("Sprites Characters")]
     [SerializeField]
     private bool isHidden = false;
 
+    [Space]
     [Header("Sprites Controller")]
+    [Space]
     public Dictionary<Speaker, SpriteController> sprites;
+    
+    [Space]
     public GameObject spritesPrefab;
-
+    
+    [Space]
     [SerializeField]
     private Coroutine typingCoroutine;
-
+    
+    [Space]
     [SerializeField]
     private float speedFactor = 1f;
 
@@ -87,6 +101,11 @@ public class BottomBarController : MonoBehaviour
         currentScene = scene;
         this.sentenceIndex = sentenceIndex;
         PlayNextSentence(isAnimated);
+
+        if (currentScene.ToString() == "9 (StoryScene)") {
+            SceneManager.LoadScene("End");
+
+        }
     }
 
     public void PlayNextSentence(bool isAnimated = true)

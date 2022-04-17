@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51fb4c6070f247e48b4377b5728b8182, type: 3}
+  m_Name: 1.4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "\"I\u2019m going first.\""
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"You can join me on the way."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Really?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: "\"Fine\u2026\""
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: ' I start walking in the direction of the school'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: Not too fast, but not too slow
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: Then some minutes later, I hear Sayori steps
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Haaahhh...haaahhh..."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: "\"You\u2019re so mean.\""
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"You could have wait for me"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: "\"I didn\u2019t run away either.\""
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: We cross the street together and make our way to school.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 2
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: As we drew near, the streets become increasing speckled with other students
+      making their daily commute.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"By the way..."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 4
+      actionType: 1
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Have you decided in a club to join yet ?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"A club ?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"I told you already, I''m really not interested in joining any clubs."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"I haven''t been looking either."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Eh ? That''s not true !"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 5
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"You told me you would join a club this year !"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Did I...?"'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: I'm sure it's possible that I did, in one of our many conversations where
+      I dismissively go along with whatever she's going on about.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Uh-huh !"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"I was talking about how I''m worried that you won''t learn how to socialize
+      or have any skills before college."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Your happiness is really important to me, you know ?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"And I know you''re happy now, but I''d die at the thought of you becoming
+      a NEET in a few years because you''re not used to the real world!"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"you trust me, right?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 6
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Don''t make me keep worrying about you..."'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Alright, alright..."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"I''ll look at a few clubs If it makes you happy."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"No promises, though."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Will you at least promise me you''ll try a little?"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 7
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Yeah, I guess I''ll promise you that."'
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: '"Yaay~"'
+    speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: eddfe009b49d3484d8dfb5498d6a2f17, type: 2}
+      spriteIndex: 8
+      actionType: 2
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: Why do I let myself get lectures by such a carefree girl?
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  - text: More than that, I'm surprised I even let myself relent to her.
+    speaker: {fileID: 11400000, guid: 755db819ff1a2ea4aa12594b5b3997b8, type: 2}
+    actions: []
+    music: {fileID: 8300000, guid: 9ebc9130f0f30ea49bf9d31eab01b811, type: 3}
+    sound: {fileID: 0}
+  background: {fileID: 21300000, guid: f3bf4215dd870684c8c1ace1ae43e3f5, type: 3}
+  nextScene: {fileID: 11400000, guid: 40709451c65b61a48bc32c9afe88db1b, type: 2}

@@ -18,7 +18,7 @@ MonoBehaviour:
     actions:
     - speaker: {fileID: 11400000, guid: 1a6e838ca95a865498180536626cd0ee, type: 2}
       spriteIndex: 1
-      actionType: 2
+      actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
     music: {fileID: 0}
