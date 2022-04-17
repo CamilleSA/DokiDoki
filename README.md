@@ -1,53 +1,53 @@
 # DokiDoki [EPITECH PROJECT]
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/logo.png"/>
+  <img width="350px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/logo.png"/>
 </p>
 
-> The DokiDoki project consisted in making a visual novel on Unity.
+> The DokiDoki project consisted in making a visual novel mobile (Android) on Unity.
 
 ## Screenshots
 
 ### Introduction
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/IntroIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/IntroIphone.png"/>
 <p/>
 
 ### Menu
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/MenuIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/MenuIphone.png"/>
 <p/>
 
 ### Residential Scene
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ResidentialIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ResidentialIphone.png"/>
 </p>
 
 ### Classroom Scene 
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ClassroomIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ClassroomIphone.png"/>
 </p>
 
 ### Corridor Scene 
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/CorridorIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/CorridorIphone.png"/>
 </p>
 
 ### Club Scene 
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ClubIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/ClubIphone.png"/>
 </p>
 
 ### End Scene 
 
 <p align="center">
-  <img src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/EndIphone.png"/>
+  <img width="700px" src="https://github.com/CamilleSA/DokiDoki/blob/main/Screens/EndIphone.png"/>
 </p>
 
 ### Technologies Used
